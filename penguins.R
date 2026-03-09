@@ -18,6 +18,7 @@ library(ggridges)
 library(here)
 library(palmerpenguins)
 library(tidyverse)
+library(psych)
 
 
 
@@ -49,3 +50,4 @@ ggsave(here("Figures", "Bill-features.png"),
 ## ## ## ## ## ## ## ## ## ## ##
 # ADD YOUR OWN CODE BELOW   ####
 ## ## ## ## ## ## ## ## ## ## ##
+describe(penguins)
